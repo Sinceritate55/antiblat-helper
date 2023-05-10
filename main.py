@@ -1,13 +1,10 @@
 import sys
 from datetime import datetime, timedelta
 
-import win32gui
-import win32api
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QFont, QColor, QPainter, QBrush
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QCheckBox, QTextBrowser, QDockWidget, \
-    QFileDialog, QTextEdit, QDesktopWidget, QStyle, QComboBox
-from PIL import ImageGrab
+    QFileDialog, QDesktopWidget, QComboBox
 
 
 class MainWindow(QMainWindow):
